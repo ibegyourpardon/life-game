@@ -79,9 +79,9 @@ export default {
 }
 
 .grid {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   background-color: #42b983;
-  margin: 0 5px 5px 0;
+  margin: 0 2px 2px 0;
 }
 </style>
