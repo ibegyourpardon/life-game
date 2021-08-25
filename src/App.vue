@@ -34,6 +34,10 @@ export default {
     },
     runGame: function() {
       console.log('runGame')
+      this.status = !this.status;
+      while (this.status) {
+        console.log(111)
+      }
     },
     stopGame: function() {
       console.log('stop')
@@ -46,7 +50,8 @@ export default {
     return {
       width: 22,
       height: 10,
-      block_list: []
+      block_list: [],
+      status: false,
     }
   },
   computed: {
